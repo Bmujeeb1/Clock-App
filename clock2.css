@@ -1,0 +1,148 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #080d20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 95vh;
+}
+.clock-dial{
+    width: 500px;
+    height: 500px;
+    /* border: 10px  solid cyan; */
+    box-shadow: 0 0 20px cyan;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+.point{
+    width: 20px;
+    height: 20px;
+    background: cyan;
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+}
+.hour{
+    font-size: 30px;
+    font-weight: bold;
+    color: cyan;
+    position: absolute;
+}
+.hour-1{
+    top: 40px;
+    right: 130px;
+}
+.hour-2{
+    top: 125px;
+    right: 45px;
+}
+.hour-3{
+    top: 235px;
+    right: 10px;
+}
+.hour-4{
+    top: 345px;
+    right:45px;
+}
+.hour-5{
+    top: 430px;
+    right: 130px;
+}
+.hour-6{
+    bottom: 10px;
+    left: 240px;
+}
+.hour-7{
+    top: 430px;
+    left: 130px;
+}
+.hour-8{
+    top: 345px;
+    left: 45px;
+}
+.hour-9{
+    top: 235px;
+    left: 10px;
+}
+.hour-10{
+    top: 125px;
+    left: 45px;
+}
+.hour-11{
+    top: 40px;
+    left: 130px;
+}
+.hour-12{
+    top: 10px;
+    left: 235px;
+}
+.brand{
+    font-size: 20px;
+    font-weight: bold;
+    color: cyan;
+    text-shadow: 0 0 25px cyan;
+    position: absolute;
+    top: 90px;
+    left: 40%;
+}
+.minute-wrapper{
+    width: 400px;height: 400px;
+    /* background: rgb(9, 9, 48); */
+    position: absolute;
+    top: 50px;
+    left: 50px;border-radius: 50%;
+}
+.minute-pointer{
+    position: relative;
+}
+.pointer{
+    width: 4px;height: 200px;
+    background: #00ffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 198px;
+}
+.minute-pointer .arrow, .hour-pointer .arrow{
+    font-size: 30px;
+    font-weight: bold;
+    color: #00ffff;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 190px;
+    top: -7px;
+}
+.hour-wrapper{
+    width: 300px;height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;border-radius: 50%;
+}
+.hour-pointer{
+    position: relative;
+}
+.hour-pointer .pointer{
+    height: 150px;
+    left: 148px;
+}
+.hour-pointer .arrow{
+    left: 140px;
+}
+.second-wrapper{
+    width: 350px;height: 350px;
+    position: absolute;
+    top: 75px;
+    left: 75px;border-radius: 50%;
+}
+.second-pointer .pointer{
+    width: 2px;
+    height: 175px;
+    background: #fff;
+    z-index: 1;
+    position: absolute;
+    left: 174px;
+}
+
+
